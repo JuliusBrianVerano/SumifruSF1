@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connection problem</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <div class="thank-you-container">
+        <h2>Connection Problem!</span>!</h2>
+        <p>An error occured trying to connect to the server. Please try again later or contact your system administrator.</p>
+        <button class="thank-you-button" onclick="returnToHomePage()">Return to Home Page</button>
+    </div>
+
+    <!-- Confetti Container -->
+    <div class="confetti-container"></div>
+
+    <script>
+        // JavaScript to retrieve and display the employee name from the query parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const employeeName = urlParams.get("name");
+        if (employeeName) {
+            document.getElementById("employeeName").textContent = employeeName;
+        }
+
+        // Function to handle the button click event and return to the home page
+        function returnToHomePage() {
+            window.location.href = "index.php";
+        }
+    </script>
+</body>
+</html>
