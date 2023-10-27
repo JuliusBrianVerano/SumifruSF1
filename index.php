@@ -191,7 +191,7 @@ function checkEmpID() {
       particleCount: 100,
       spread: 70,
       origin: { y: 0.6 },
-      colors: ['#ffffff', '#ffe5b4', '#ff7f50', '#d2691e', '#8b4513'], // shades of brown and white
+      colors: ['#ffffff', '#ffe5b4', '#ff7f50', '#d2691e', '#8b4513'], // shades of brown and white confetti
     });
 
     // Stars
@@ -199,7 +199,7 @@ function checkEmpID() {
       particleCount: 100,
       spread: 70,
       origin: { y: 0.6 },
-      shapes: ['square'], // stars can be approximated by squares
+      shapes: ['square'], // stars can be approximated by squares 
       colors: ['#ffff00'], // yellow stars
     });
 
