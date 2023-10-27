@@ -208,7 +208,7 @@ function checkEmpID() {
       particleCount: 100,
       spread: 70,
       origin: { y: 0.6 },
-      colors: ['#ffffff'], // white snow
+      colors: ['#ffffff'], // white snow 
     });
   }
   window.onload = createConfetti;
